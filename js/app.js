@@ -19,7 +19,7 @@ window.addEventListener("load", () => {
       const proxy = "https://cors-anywhere.herokuapp.com/";
       const key = "2b0f1e93168e7f090b4956334fcedbdd";
 
-      const api = `https://api.darksky.net/forecast/${key}/${lat},${long}`;
+      const api = `http://www.whateverorigin.org/https://api.darksky.net/forecast/${key}/${lat},${long}`;
       let verify = response => {
         if (!response.ok) {
           console.log(response.statusText);
